@@ -1,9 +1,4 @@
 $(document).ready(function(){
-    $('#fullpage').fullpage({
-        slidesNavigation: true,
-        autoScrolling: true
-    });
-
     $('.tabSet').each(function(){       
         var anchor = $(this).find('.tabs a');
         var anchor_on = $(this).find('.tabs a.on');
