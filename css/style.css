@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/* +++++++++++++++++++++++++++++++++ 공통 +++++++++++++++++++++++++++++++++ */
+*{margin:0; padding:0;}
+.fixinner{padding: 150px 50px;}
+.inner{padding: 65px 50px; margin: 0 auto;}
+@font-face {src : url("../font/Helvetica.otf"), url("../font/tway_fly.otf"); 
+    font-family:"helvetica", "tway"}
+body{background-image: url(#); background-repeat: no-repeat;
+    font-family: "helvetica", "tway";}
+
+/* +++++++++++++++++++++++++++++++++ 헤더- 인트로 +++++++++++++++++++++++++++++++++ */
+#fix{width: 25%; height: 100%; position:fixed; overflow: hidden; border-right: 1px solid #999;}
+#fix .img{margin-bottom: 35px;}
+#fix .text{text-align: center; font-size: 1.5rem; line-height: 43px;}
+#fix .text .t1{margin-top: 20px; font-size: 1.4rem;}
+
+/* +++++++++++++++++++++++++++++++++ 섹션1- 스킬 +++++++++++++++++++++++++++++++++ */
+#sec1{width: 75%; margin-left: 25%; border-bottom: 1px solid #999;}
+#sec1 h2{font-size: 2.9rem; font-weight: 400; margin-bottom: 85px;}
+#sec1 .skill_list{display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;
+                  margin: 0 19px;}
+#sec1 .skill_list div{width: 33.33%; overflow: hidden; box-sizing: border-box; text-align: center; margin-bottom: 90px;
+                    display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: space-between;}
+#sec1 .skill_list div img{padding-left: 25%; margin-bottom: 20px; }
+#sec1 .skill_list div span{font-size: 1.1rem;}
+
+/* +++++++++++++++++++++++++++++++++ 섹션2- 프로젝트 +++++++++++++++++++++++++++++++++ */
+#sec2{width: 75%; margin-left: 25%; border-bottom: 1px solid #999;}
+#sec2 h2{font-size: 2.9rem; font-weight: 400; margin-bottom: 80px;}
+
+#sec2 .box{margin-bottom: 180px;}
+#sec2 .pj{max-width: 1000px; width: 100%; height: 550px; 
+          overflow: hidden; border-radius: 30px;}
+#sec2 .pj img {transition: 0.5s ease-in-out;}
+#sec2 .pj img:hover{transform: scale(1.1);}
+#sec2 .pj_list .box:nth-child(3){margin-bottom: 50px;}
+
+#sec2 .pj .pj_img{max-width: 1000px; width: 100%; height: 550px;}
+#sec2 .pj_list .pj_img img{width: 100%;}
+
+#sec2 .pj_list .pj_text{width: 970px; padding-top: 50px;}
+#sec2 .pj_list .pj_text ul{display: flex; flex-direction: row; flex-wrap: wrap; justify-content:flex-start;}
+#sec2 .pj_list .pj_text ul li{border-bottom: 1px solid #eee; box-shadow: 1px 2px 4px rgb(168, 168, 168); color: #000; border-radius: 30px; 
+                                  margin-right: 9px; padding: 8px 15px; font-size: 16px;}
+#sec2 .pj_list .pj_text .p1{font-size: 1.4rem; margin-bottom: 18px; font-weight: 400;}
+#sec2 .pj_list .pj_text .p2{font-size: 1rem; margin-bottom: 20px;}
+#sec2 .pj_list .pj_text .p3{font-size: 0.9rem; border-bottom: 1px solid #000;}
+
+#sec2 .right{margin-left: 25%;}
+
+#sec2 .pj_list .black:hover{opacity: 1; transition: 0.4s ease-in-out;}
+
+/* +++++++++++++++++++++++++++++++++ 섹션3- 그래픽 +++++++++++++++++++++++++++++++++ */
+#sec3{width: 75%; margin-left: 25%;}
+#sec3 h2{font-size: 2.9rem; font-weight: 400; margin-bottom: 80px;}
+
+#sec3 .tabSet .tabs{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;
+    margin-bottom: 135px;}
+#sec3 .tabSet .tabs a{margin: 22px;}
+#sec3 .tabSet .tabs li{font-size: 21px; color: #454545;}
+#sec3 .tabSet .tabs li:hover{color: rgba(0, 0, 0, 0.4); transition: 0.6s;}
+
+
+#sec3 .panels .box{column-width: 320px; column-gap: 35px; margin: 0 20px;}
+#sec3 .panels .box .panel_1{display: inline-block; margin: 0; margin-bottom: 35px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
+#sec3 .panels .box img{width: 100%;}
+#sec3 .panels .box .panel_1 .paneltxt{border-top: 1px solid rgba(0, 0, 0, 0.2); padding: 10px; margin-top: 11px;}
+
