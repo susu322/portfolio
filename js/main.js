@@ -25,17 +25,17 @@ $(document).ready(function(){
             var img_name = $(this).find('.pin');
             var img_src = $(img_name).attr('href');
             var img_alt = $(img_name).attr('title');
-            var height = $(this).attr('title');
+            var height = $(img_name).attr('rel');
 
+            $('#modal').addClass('on');
             $('#modal').show();
             $('#modal img').attr('src',img_src);
-            // $('#modal .txt').text(img_alt);
 
-            $('.body').removeClass('height');
+            $('.body').removeClass('longh');
             $('.body').addClass(height);
             })
           })
-        $("#modal button").click(function() {
-          $("#modal").hide();
+        $("#modal").click(function() {
+          $('#modal').removeClass('on');
         });
 });
