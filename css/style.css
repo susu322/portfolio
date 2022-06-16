@@ -31,7 +31,8 @@ body{background-image: url(#); background-repeat: no-repeat;
 
 #sec2 .box{margin-bottom: 180px;}
 #sec2 .pj{max-width: 1000px; width: 100%; height: 550px; 
-          overflow: hidden; border-radius: 30px;}
+          overflow: hidden; border-radius: 30px;
+          position: relative;}
 #sec2 .pj img {transition: 0.5s ease-in-out;}
 
 #sec2 .pj_list .box:nth-child(3){margin-bottom: 50px;}
@@ -49,7 +50,17 @@ body{background-image: url(#); background-repeat: no-repeat;
 
 #sec2 .right{margin-left: 25%;}
 
+#sec2 .pj_list .black{background-color: rgba(139, 111, 148, 0.9); opacity: 0;
+                      position: absolute; top: 0; left: 0;
+                      max-width: 1000px; width: 100%; height: 100%}
+
 #sec2 .pj_list .black:hover{opacity: 1; transition: 0.4s ease-in-out;}
+#sec2 .pj_list .black .link{background-color: #fff; border-radius: 20px;
+                            padding: 25px 25px; position: absolute; top: 40%; left: 36%;}
+#sec2 .pj_list .black .link:hover{background-color: #f1d9e7;}
+#sec2 .pj_list .black .plus{background-color: #fff; border-radius: 20px;
+                            padding: 25px 25px; position: absolute; top: 40%; left: 51%;}
+#sec2 .pj_list .black .plus:hover{background-color: #f1d9e7;}
 
 /* +++++++++++++++++++++++++++++++++ 섹션3- 그래픽 +++++++++++++++++++++++++++++++++ */
 #sec3{width: 75%; margin-left: 25%;}
