@@ -4,10 +4,9 @@
 *{margin:0; padding:0;}
 .fixinner{padding: 150px 50px;}
 .inner{padding: 65px 50px; margin: 0 auto;}
-@font-face {src : url("../font/Helvetica.otf"), url("../font/tway_fly.otf"); 
-    font-family:"helvetica", "tway"}
+@font-face {src : url(../font/SUIT-Regular.otf); font-family:"SUIT"}
 body{background-image: url(#); background-repeat: no-repeat;
-    font-family: "helvetica", "tway";}
+    font-family: "SUIT";}
 
 /* +++++++++++++++++++++++++++++++++ 헤더- 인트로 +++++++++++++++++++++++++++++++++ */
 #fix{width: 25%; height: 100%; position:fixed; overflow: hidden; border-right: 1px solid #999;}
