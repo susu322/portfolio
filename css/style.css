@@ -74,9 +74,10 @@ body{background-image: url(#); background-repeat: no-repeat;
 #sec3 .tabSet .tabs li:hover{color: rgba(0, 0, 0, 0.4); transition: 0.6s;}
 
 
-#sec3 .panels .box{column-width: 320px; column-gap: 35px; margin: 0 20px;}
-#sec3 .panels .box .panel_1{display: inline-block; margin: 0; margin-bottom: 35px;
-            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); border-radius: 10px; overflow: hidden;}
+#sec3 .panels .box{column-width: 320px; column-gap: 40px; margin: 0 43px;}
+#sec3 .panels .box .panel_1{display: inline-block; margin-bottom: 35px; transition: 0.4s ease-in-out;
+                    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); border-radius: 10px; overflow: hidden;}
+#sec3 .panels .box .panel_1:hover{transform: scale(1.05); box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);}
 #sec3 .panels .box img{width: 100%;}
 #sec3 .panels .box .panel_1 .paneltxt{padding: 13px;
                                         text-align: center; font-size: 18px;}
