@@ -11,6 +11,7 @@ body{background-image: url(#); background-repeat: no-repeat;
 /* +++++++++++++++++++++++++++++++++ 헤더- 인트로 +++++++++++++++++++++++++++++++++ */
 #fix{width: 25%; height: 100%; position:fixed; overflow: hidden; border-right: 1px solid #999;}
 #fix .img{margin-bottom: 35px;}
+#fix .img img{width: 100%;}
 #fix .text{text-align: center; font-size: 1.5rem; line-height: 43px;}
 #fix .text .t1{margin-top: 20px; font-size: 1.4rem;}
 
@@ -27,6 +28,7 @@ body{background-image: url(#); background-repeat: no-repeat;
 /* +++++++++++++++++++++++++++++++++ 섹션2- 프로젝트 +++++++++++++++++++++++++++++++++ */
 #sec2{width: 75%; margin-left: 25%; border-bottom: 1px solid #999;}
 #sec2 h2{font-size: 2.9rem; font-weight: 400; margin-bottom: 80px;}
+#sec2 h2 span{font-size: 1.3rem;}
 
 #sec2 .box{margin-bottom: 180px;}
 #sec2 .pj{max-width: 1000px; width: 100%; height: 550px; 
@@ -59,8 +61,9 @@ body{background-image: url(#); background-repeat: no-repeat;
 #sec2 .pj_list .black .link:hover{background-color: rgba(230, 230, 230, 0.85); transition: 0.5s;}
 #sec2 .pj_list .black .plus{background-color: #fff; border-radius: 20px;
                             padding: 25px 25px; position: absolute; top: 40%; left: 51%;}
-#sec2 .pj_list .black .plus:hover{background-color: rgba(230, 230, 230, 0.85); transition: 0.5s;}
-#sec2 .pj_list .black .plus:nth-child(3){ position: absolute; top: 40%; left: 55%;}
+#sec2 .pj_list .black .noplus{background-color: #555; border-radius: 20px;
+                            padding: 25px 25px; position: absolute; top: 40%; left: 51%;}
+#sec2 .pj_list .black .plus:hover{background-color: rgba(111, 111, 111, 0.85); transition: 0.5s;}
 
 /* +++++++++++++++++++++++++++++++++ 섹션3- 그래픽 +++++++++++++++++++++++++++++++++ */
 #sec3{width: 75%; margin-left: 25%;}
