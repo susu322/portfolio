@@ -19,7 +19,7 @@ $(document).ready(function(){
          }) //anchor
        })  //tabSet
 
-       $('.panel_1').each(function(){
+       $('.panel_1, .zoom').each(function(){
         $(this).click(function(event){
             event.preventDefault();
             var img_name = $(this).find('.pin');
@@ -37,5 +37,5 @@ $(document).ready(function(){
           })
         $("#modal").click(function() {
           $('#modal').removeClass('on');
-        });
+      });
 });
