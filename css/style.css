@@ -76,7 +76,8 @@ body{background-image: url(#); background-repeat: no-repeat;
 
 #sec3 .panels .box{column-width: 320px; column-gap: 35px; margin: 0 20px;}
 #sec3 .panels .box .panel_1{display: inline-block; margin: 0; margin-bottom: 35px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); border-radius: 10px; overflow: hidden;}
 #sec3 .panels .box img{width: 100%;}
-#sec3 .panels .box .panel_1 .paneltxt{border-top: 1px solid rgba(0, 0, 0, 0.2); padding: 10px; margin-top: 11px;}
+#sec3 .panels .box .panel_1 .paneltxt{padding: 13px;
+                                        text-align: center; font-size: 18px;}
 
