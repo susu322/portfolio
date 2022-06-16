@@ -49,17 +49,17 @@ body{background-image: url(#); background-repeat: no-repeat;
 
 #sec2 .right{margin-left: 25%;}
 
-#sec2 .pj_list .black{background-color: rgba(139, 111, 148, 0.9); opacity: 0;
+#sec2 .pj_list .black{background-color: rgba(0, 0, 0, 0.8); opacity: 0;
                       position: absolute; top: 0; left: 0;
                       max-width: 1000px; width: 100%; height: 100%}
 
 #sec2 .pj_list .black:hover{opacity: 1; transition: 0.4s ease-in-out;}
 #sec2 .pj_list .black .link{background-color: #fff; border-radius: 20px;
                             padding: 25px 25px; position: absolute; top: 40%; left: 36%;}
-#sec2 .pj_list .black .link:hover{background-color: #f1d9e7;}
+#sec2 .pj_list .black .link:hover{background-color: rgba(230, 230, 230, 0.85); transition: 0.5s;}
 #sec2 .pj_list .black .plus{background-color: #fff; border-radius: 20px;
                             padding: 25px 25px; position: absolute; top: 40%; left: 51%;}
-#sec2 .pj_list .black .plus:hover{background-color: #f1d9e7;}
+#sec2 .pj_list .black .plus:hover{background-color: rgba(230, 230, 230, 0.85); transition: 0.5s;}
 
 /* +++++++++++++++++++++++++++++++++ 섹션3- 그래픽 +++++++++++++++++++++++++++++++++ */
 #sec3{width: 75%; margin-left: 25%;}
@@ -68,9 +68,9 @@ body{background-image: url(#); background-repeat: no-repeat;
 #sec3 .panels .panel{display: none;}
 #sec3 .tabSet .tabs{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;
     margin-bottom: 135px;}
-#sec3 .tabSet .tabs a{margin: 22px;}
-#sec3 .tabSet .tabs li{font-size: 21px; color: #454545;}
-#sec3 .tabSet .tabs li:hover{color: rgba(0, 0, 0, 0.4); transition: 0.6s;}
+#sec3 .tabSet .tabs a{margin: 23px;}
+#sec3 .tabSet .tabs li{font-size: 22px; color: #454545;}
+#sec3 .tabSet .tabs li:hover{color: rgba(0, 0, 0, 0.4); transition: 0.5s;}
 
 
 #sec3 .panels .box{column-width: 320px; column-gap: 40px; margin: 0 43px;}
@@ -78,6 +78,47 @@ body{background-image: url(#); background-repeat: no-repeat;
                     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); border-radius: 10px; overflow: hidden;}
 #sec3 .panels .box .panel_1:hover{transform: scale(1.05); box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);}
 #sec3 .panels .box img{width: 100%;}
-#sec3 .panels .box .panel_1 .paneltxt{padding: 13px;
-                                        text-align: center; font-size: 18px;}
+#sec3 .panels .box .panel_1 .paneltxt{padding: 13px; text-align: center; font-size: 18px;}
 
+/* +++++++++++++++++++++++++++++++++ 섹션3- 그래픽 모달팝업창 +++++++++++++++++++++++++++++++++ */
+#modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left:0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: none;
+    overflow: scroll;    
+}
+#modal .body {
+    position: absolute;
+    left: 51%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /*opacity: 0;*/
+    /*transform: translate(-50%, -50%);*/
+}
+#modal .body.height{
+    top: 20px; transform: translate(-50%, 0);
+    overflow-y: auto; height: 100%;
+}
+#modal .body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 90%;
+}
+#modal .body .button {
+    margin-top: 100px;
+    text-align: center;
+}
+#modal .body .button button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    background: #009688;
+    color: white;
+}                            

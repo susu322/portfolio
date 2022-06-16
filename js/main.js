@@ -18,4 +18,24 @@ $(document).ready(function(){
             }) //click
          }) //anchor
        })  //tabSet
+
+       $('.panel_1').each(function(){
+        $(this).click(function(event){
+            event.preventDefault();
+            var img_name = $(this).find('.pin');
+            var img_src = $(img_name).attr('href');
+            var img_alt = $(img_name).attr('title');
+            var height = $(this).attr('title');
+
+            $('#modal').show();
+            $('#modal img').attr('src',img_src);
+            // $('#modal .txt').text(img_alt);
+
+            $('.body').removeClass('height');
+            $('.body').addClass(height);
+            })
+          })
+        $("#modal button").click(function() {
+          $("#modal").hide();
+        });
 });
