@@ -22,7 +22,7 @@ body{background-image: url(#); background-repeat: no-repeat;
                   margin: 0 19px;}
 #sec1 .skill_list div{width: 33.33%; overflow: hidden; box-sizing: border-box; text-align: center; margin-bottom: 90px;
                     display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: space-between;}
-#sec1 .skill_list div img{padding-left: 25%; margin-bottom: 20px; }
+#sec1 .skill_list div img{padding-left: 25%; margin-bottom: 20px;}
 #sec1 .skill_list div span{font-size: 1.1rem;}
 
 /* +++++++++++++++++++++++++++++++++ 섹션2- 프로젝트 +++++++++++++++++++++++++++++++++ */
@@ -104,4 +104,20 @@ body{background-image: url(#); background-repeat: no-repeat;
     border-radius: 6px;
     background: #009688;
     color: white;
-}*/            
+}*/
+
+/* +++++++++++++++++++++++++++++++++ 미디어쿼리 +++++++++++++++++++++++++++++++++ */
+@media all and (max-width: 1024px) {
+    .inner{padding: 55px 40px;}
+    #fix{width: 35%;}
+    #sec1{width: 65%; margin-left: 35%;}
+    #sec1 .skill_list div img{width: 90%;}
+    #sec2{width: 65%; margin-left: 35%;}
+    #sec2 .right{margin-left: 0;}
+    #sec2 .pj{height: 310px;}
+    #sec3{width: 65%; margin-left: 35%;}
+    #sec3 .panels .box{column-width: 250px; column-gap: 25px; margin: 0 10px;}
+    #sec2 .pj_list .black .link{top: 35%; left: 30%;}
+    #sec2 .pj_list .black .plus{top: 35%; left: 52%;}
+    #sec2 .pj_list .black .noplus{top: 35%; left: 52%;}
+}
