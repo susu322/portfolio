@@ -107,7 +107,7 @@ body{background-image: url(#); background-repeat: no-repeat;
 }*/
 
 /* +++++++++++++++++++++++++++++++++ 미디어쿼리 +++++++++++++++++++++++++++++++++ */
-@media all and (max-width: 1024px) {
+@media all and (min-width: 1024px) {
     .inner{padding: 55px 40px;}
     #fix{width: 35%;}
     #sec1{width: 65%; margin-left: 35%;}
