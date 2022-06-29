@@ -107,16 +107,24 @@ body{background-image: url(#); background-repeat: no-repeat;
 }*/
 
 /* +++++++++++++++++++++++++++++++++ 미디어쿼리 +++++++++++++++++++++++++++++++++ */
-@media all and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .inner{padding: 55px 40px;}
     #fix{width: 35%;}
     #sec1{width: 65%; margin-left: 35%;}
     #sec1 .skill_list div img{width: 90%;}
     #sec2{width: 65%; margin-left: 35%;}
-    #sec2 .right{margin-left: 0;}
+    #sec2 .right{margin: 0;}
     #sec3{width: 65%; margin-left: 35%;}
     #sec3 .panels .box{column-width: 250px; column-gap: 25px; margin: 0 10px;}
     #sec2 .pj_list .black .link{top: 35%; left: 30%;}
     #sec2 .pj_list .black .plus{top: 35%; left: 52%;}
     #sec2 .pj_list .black .noplus{top: 35%; left: 52%;}
+}
+
+
+@media screen and (max-width: 768px) {
+    #fix{width: 100%; height: 20%; position:relative; overflow: hidden; border-bottom: 1px solid #999;}
+    #sec1{width: 100%; margin-left: 0;}
+    #sec2{width: 100%; margin-left: 0;}
+    #sec3{width: 100%; margin-left: 0;}
 }
