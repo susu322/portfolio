@@ -6,7 +6,7 @@
 .inner{padding: 65px 50px; margin: 0 auto;}
 @font-face {src : url(../font/SUIT-Regular.otf); font-family:"SUIT"}
 body{background-image: url(#); background-repeat: no-repeat;
-    font-family: "SUIT";}
+    font-family: "SUIT"; height: 100%;}
 
 /* +++++++++++++++++++++++++++++++++ 헤더- 인트로 +++++++++++++++++++++++++++++++++ */
 #fix{width: 25%; height: 100%; position:fixed; overflow: hidden; border-right: 1px solid #999;}
