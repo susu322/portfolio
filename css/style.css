@@ -33,7 +33,7 @@ body{background-image: url(#); background-repeat: no-repeat;
 #sec2 .box{margin-bottom: 180px;}
 #sec2 .pj{max-width: 1000px; width: 100%; height: 550px; 
           overflow: hidden; border-radius: 30px;
-          position: relative;}
+          position: relative; margin-bottom: 30px;}
 #sec2 .pj img {transition: 0.5s ease-in-out;}
 
 #sec2 .pj_list .box:nth-child(3){margin-bottom: 50px;}
@@ -41,7 +41,7 @@ body{background-image: url(#); background-repeat: no-repeat;
 #sec2 .pj .pj_img{max-width: 1000px; width: 100%; height: 550px;}
 #sec2 .pj_list .pj_img img{width: 100%;}
 
-#sec2 .pj_list .pj_text{width: 970px; padding-top: 50px;}
+#sec2 .pj_list .pj_text{width: 970px; padding-top: 50px; display: inline;}
 #sec2 .pj_list .pj_text ul{display: flex; flex-direction: row; flex-wrap: wrap; justify-content:flex-start;}
 #sec2 .pj_list .pj_text ul li{border-bottom: 1px solid #eee; box-shadow: 1px 2px 4px rgb(168, 168, 168); color: #000; border-radius: 30px; 
                                   margin-right: 9px; padding: 8px 15px; font-size: 1rem;}
