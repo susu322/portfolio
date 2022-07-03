@@ -108,15 +108,17 @@ body{background-image: url(#); background-repeat: no-repeat;
 /* +++++++++++++++++++++++++++++++++ 미디어쿼리 +++++++++++++++++++++++++++++++++ */
 /* 탭 */
 @media all and (max-width: 1024px) {
+    .fixinner{padding: 330px 40px;}
     .inner{padding: 55px 40px;}
-    #fix{width: 35%;}
+    #fix{width: 40%;}
 
-    #sec1{width: 65%; margin-left: 35%;}
-    #sec1 .skill_list div img{width: 90%;}
-    #sec1 .skill_list div img{padding-left: 6%;}
+    #sec1{width: 60%; margin-left: 40%;}
+    #sec1 .skill_list div img{width: 90%; padding-left: 6%;}
+    #sec1 .skill_list{margin: 0;}
 
-    #sec2{width: 65%; margin-left: 35%;}
+    #sec2{width: 60%; margin-left: 40%;}
     #sec2 .right{margin: 0;}
+    #sec2 .box{margin-bottom: 150px;}
     #sec2 .pj{height: 350px; margin-bottom: 30px; height: 300px;}
     #sec2 .pj_list .black .link{top: 35%; left: 30%;}
     #sec2 .pj_list .black .plus{top: 35%; left: 52%;}
@@ -126,8 +128,8 @@ body{background-image: url(#); background-repeat: no-repeat;
                         position: absolute; top: 0; left: 0;
                         max-width: 1000px; width: 100%; height: 100%}
 
-    #sec3{width: 65%; margin-left: 35%;}
-    #sec3 .panels .box{column-width: 250px; column-gap: 25px; margin: 0 10px;}
+    #sec3{width: 60%; margin-left: 40%;}
+    #sec3 .panels .box{column-width: 244px; column-gap: 20px; margin: 8px;}
 }
 
 
@@ -135,9 +137,8 @@ body{background-image: url(#); background-repeat: no-repeat;
 @media all and (max-width: 768px) {
     .fixinner{padding: 15px 15px;}
     .inner{padding: 20px 15px;}
-    #fix{width: 100%; height: 12.5%; position:relative; overflow: hidden; border-bottom: 1px solid #999;
-        border-right: 0;}
-
+    #fix{width: 100%; height: 12.5%; position:relative; overflow: hidden; 
+        border-bottom: 1px solid #999; border-right: 0;}
     #fix .text{font-size: 1.3rem; line-height: 35px;}
     #fix .text .t1{margin-top: 12px; font-size: 1.2rem;}
 
