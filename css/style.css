@@ -131,11 +131,13 @@ body{background-image: url(#); background-repeat: no-repeat;
     #fix .text .t1{margin-top: 12px; font-size: 1.2rem;}
 
     #sec1{width: 100%; margin-left: 0;}
+    #sec1 h2{font-size: 2.5rem; margin-bottom: 70px;}
     #sec1 .skill_list div img{padding-left: 5%;}
     #sec1 .skill_list div{width: 40%; margin-bottom: 50px;}
     
     #sec2{width: 100%; margin-left: 0;}
-    #sec2 h2 span{display: block;}
+    #sec2 h2{font-size: 2.5rem; margin-bottom: 70px;}
+    #sec2 h2 span{display: block; padding-top: 5px;}
     #sec2 .box{margin-bottom: 100px;}
     #sec2 .pj{height: 350px; margin-bottom: 30px; height: 190px; }
     #sec2 .pj_list .pj_text{width: 500px; padding-top: 40px; display: inline;}
@@ -143,15 +145,16 @@ body{background-image: url(#); background-repeat: no-repeat;
                         position: absolute; top: 0; left: 0;
                         max-width: 1000px; width: 100%; height: 100%}
     #sec2 .pj_list .pj_text .p1{font-size: 1.1rem; margin-bottom: 10px;}
-    #sec2 .pj_list .pj_text .p2{font-size: 0.8rem; margin-bottom: 15px;}
-    #sec2 .pj_list .pj_text ul li{font-size: 0.8rem; margin-right: 7px; padding: 4px 13px;}
+    #sec2 .pj_list .pj_text .p2{font-size: 0.8rem; margin-bottom: 16px;}
+    #sec2 .pj_list .pj_text ul li{font-size: 0.8rem; margin-right: 7px; margin-bottom: 7px; padding: 4px 13px;}
     #sec2 .pj_list .black .link{padding: 10px 10px; left: 25%;}
     #sec2 .pj_list .black .plus{padding: 10px 10px; left: 56%;}
     #sec2 .pj_list .black .noplus{padding: 10px 10px; left: 58%;}
 
     #sec3{width: 100%; margin-left: 0;}
+    #sec3 h2{font-size: 2.5rem; margin-bottom: 70px;}
     #sec3 .tabSet .tabs li{font-size: 15px;}
     #sec3 .tabSet .tabs{margin-bottom: 70px;}
-    #sec3 .panels .box{column-width: 152px; column-gap: 15px; margin: 0 5px;}
+    #sec3 .panels .box{column-width: 152px; column-gap: 15px; margin: 0 4px;}
     #sec3 .panels .box .panel_1 .paneltxt{font-size: 15px}
 }
