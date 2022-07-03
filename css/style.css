@@ -122,9 +122,9 @@ body{background-image: url(#); background-repeat: no-repeat;
 
 
 @media all and (max-width: 768px) {
-    .fixinner{padding: 10px 10px;}
-    .inner{padding: 10px 10px;}
-    #fix{width: 100%; height: 18%; position:relative; overflow: hidden; border-bottom: 1px solid #999;
+    .fixinner{padding: 15px 15px;}
+    .inner{padding: 20px 15px;}
+    #fix{width: 100%; height: 13%; position:relative; overflow: hidden; border-bottom: 1px solid #999;
         border-right: 0;}
 
     #fix .text{font-size: 1.3rem; line-height: 35px;}
@@ -137,20 +137,19 @@ body{background-image: url(#); background-repeat: no-repeat;
     #sec2{width: 100%; margin-left: 0;}
     #sec2 h2 span{display: block;}
     #sec2 .box{margin-bottom: 100px;}
-    #sec2 .pj{height: 350px;}
-    #sec2 .pj_list .pj_text{width: 500px; padding-top: 40px;}
+    #sec2 .pj{height: 350px; margin-bottom: 30px;}
+    #sec2 .pj_list .pj_text{width: 500px; padding-top: 40px; display: inline;}
     #sec2 .pj_list .black{background-color: rgba(0, 0, 0, 0.7); opacity: 1;
-        position: absolute; top: 0; left: 0;
-        max-width: 1000px; width: 100%; height: 100%}
-    #sec2 .pj_list .pj_text ul li {padding: 3px 9px;}
+                        position: absolute; top: 0; left: 0;
+                        max-width: 1000px; width: 100%; height: 100%}
     #sec2 .pj_list .pj_text .p1{font-size: 1rem; margin-bottom: 10px;}
-    #sec2 .pj_list .pj_text .p2{font-size: 0.8rem; margin-bottom: 12px;}
-    #sec2 .pj_list .pj_text ul li{font-size: 0.8rem; margin-right: 5px;}
+    #sec2 .pj_list .pj_text .p2{font-size: 0.8rem; margin-bottom: 15px;}
+    #sec2 .pj_list .pj_text ul li{font-size: 0.8rem; margin-right: 7px; padding: 4px 13px;}
     #sec2 .pj_list .black .link{padding: 10px 10px; left: 25%;}
     #sec2 .pj_list .black .plus{padding: 10px 10px; left: 58%;}
     #sec2 .pj_list .black .noplus{padding: 10px 10px; left: 58%;}
 
     #sec3{width: 100%; margin-left: 0;}
     #sec3 .tabSet .tabs li{font-size: 16px;}
-    #sec3 .tabSet .tabs{margin-bottom: 90px;}
+    #sec3 .tabSet .tabs{margin-bottom: 70px;}
 }
