@@ -137,7 +137,7 @@ body{background-image: url(#); background-repeat: no-repeat;
     #sec2{width: 100%; margin-left: 0;}
     #sec2 h2 span{display: block;}
     #sec2 .box{margin-bottom: 100px;}
-    #sec2 .pj{height: 350px; margin-bottom: 30px;}
+    #sec2 .pj{height: 350px; margin-bottom: 30px; height: 190px; }
     #sec2 .pj_list .pj_text{width: 500px; padding-top: 40px; display: inline;}
     #sec2 .pj_list .black{background-color: rgba(0, 0, 0, 0.7); opacity: 1;
                         position: absolute; top: 0; left: 0;
@@ -146,10 +146,12 @@ body{background-image: url(#); background-repeat: no-repeat;
     #sec2 .pj_list .pj_text .p2{font-size: 0.8rem; margin-bottom: 15px;}
     #sec2 .pj_list .pj_text ul li{font-size: 0.8rem; margin-right: 7px; padding: 4px 13px;}
     #sec2 .pj_list .black .link{padding: 10px 10px; left: 25%;}
-    #sec2 .pj_list .black .plus{padding: 10px 10px; left: 58%;}
+    #sec2 .pj_list .black .plus{padding: 10px 10px; left: 56%;}
     #sec2 .pj_list .black .noplus{padding: 10px 10px; left: 58%;}
 
     #sec3{width: 100%; margin-left: 0;}
-    #sec3 .tabSet .tabs li{font-size: 16px;}
+    #sec3 .tabSet .tabs li{font-size: 15px;}
     #sec3 .tabSet .tabs{margin-bottom: 70px;}
+    #sec3 .panels .box{column-width: 152px; column-gap: 15px; margin: 0 5px;}
+    #sec3 .panels .box .panel_1 .paneltxt{font-size: 15px;}
 }
