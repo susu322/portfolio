@@ -108,7 +108,7 @@ body{background-image: url(#); background-repeat: no-repeat;
 /* +++++++++++++++++++++++++++++++++ 미디어쿼리 +++++++++++++++++++++++++++++++++ */
 /* 탭 */
 @media all and (max-width: 1024px) {
-    .fixinner{padding: 330px 40px;}
+    .fixinner{padding: 330px 20px;}
     .inner{padding: 55px 40px;}
     #fix{width: 30%;}
     #fix .text{font-size: 1.2rem; line-height: 35px;}
