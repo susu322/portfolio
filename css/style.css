@@ -122,8 +122,8 @@ body{background-image: url(#); background-repeat: no-repeat;
     #sec2 .right{margin: 0;}
     #sec2 .box{margin-bottom: 150px;}
     #sec2 .pj{height: 350px; margin-bottom: 30px; height: 300px;}
-    #sec2 .pj_list .pj_text .p1{font-size: 1.3rem; margin-bottom: 10px;}
-    #sec2 .pj_list .pj_text .p2{font-size: 1rem; margin-bottom: 16px;}
+    #sec2 .pj_list .pj_text .p1{font-size: 1.2rem; margin-bottom: 10px;}
+    #sec2 .pj_list .pj_text .p2{font-size: 0.9rem; margin-bottom: 16px;}
     #sec2 .pj_list .pj_text ul li{font-size: 0.9rem;}
     #sec2 .pj_list .black .link{padding: 15px 15px; left: 27%;}
     #sec2 .pj_list .black .plus{padding: 15px 15px; left: 55%;}
