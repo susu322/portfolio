@@ -124,7 +124,7 @@ body{background-image: url(#); background-repeat: no-repeat;
 @media all and (max-width: 768px) {
     .fixinner{padding: 15px 15px;}
     .inner{padding: 20px 15px;}
-    #fix{width: 100%; height: 13%; position:relative; overflow: hidden; border-bottom: 1px solid #999;
+    #fix{width: 100%; height: 12.5%; position:relative; overflow: hidden; border-bottom: 1px solid #999;
         border-right: 0;}
 
     #fix .text{font-size: 1.3rem; line-height: 35px;}
@@ -132,7 +132,7 @@ body{background-image: url(#); background-repeat: no-repeat;
 
     #sec1{width: 100%; margin-left: 0;}
     #sec1 .skill_list div img{padding-left: 5%;}
-    #sec1 .skill_list div{width: 40%;}
+    #sec1 .skill_list div{width: 40%; margin-bottom: 50px;}
     
     #sec2{width: 100%; margin-left: 0;}
     #sec2 h2 span{display: block;}
@@ -142,7 +142,7 @@ body{background-image: url(#); background-repeat: no-repeat;
     #sec2 .pj_list .black{background-color: rgba(0, 0, 0, 0.7); opacity: 1;
                         position: absolute; top: 0; left: 0;
                         max-width: 1000px; width: 100%; height: 100%}
-    #sec2 .pj_list .pj_text .p1{font-size: 1rem; margin-bottom: 10px;}
+    #sec2 .pj_list .pj_text .p1{font-size: 1.1rem; margin-bottom: 10px;}
     #sec2 .pj_list .pj_text .p2{font-size: 0.8rem; margin-bottom: 15px;}
     #sec2 .pj_list .pj_text ul li{font-size: 0.8rem; margin-right: 7px; padding: 4px 13px;}
     #sec2 .pj_list .black .link{padding: 10px 10px; left: 25%;}
@@ -153,5 +153,5 @@ body{background-image: url(#); background-repeat: no-repeat;
     #sec3 .tabSet .tabs li{font-size: 15px;}
     #sec3 .tabSet .tabs{margin-bottom: 70px;}
     #sec3 .panels .box{column-width: 152px; column-gap: 15px; margin: 0 5px;}
-    #sec3 .panels .box .panel_1 .paneltxt{font-size: 15px;}
+    #sec3 .panels .box .panel_1 .paneltxt{font-size: 15px}
 }
