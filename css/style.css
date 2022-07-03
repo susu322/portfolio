@@ -106,21 +106,32 @@ body{background-image: url(#); background-repeat: no-repeat;
 }*/
 
 /* +++++++++++++++++++++++++++++++++ 미디어쿼리 +++++++++++++++++++++++++++++++++ */
+/* 탭 */
 @media all and (max-width: 1024px) {
     .inner{padding: 55px 40px;}
     #fix{width: 35%;}
+
     #sec1{width: 65%; margin-left: 35%;}
     #sec1 .skill_list div img{width: 90%;}
+    #sec1 .skill_list div img{padding-left: 6%;}
+
     #sec2{width: 65%; margin-left: 35%;}
     #sec2 .right{margin: 0;}
-    #sec3{width: 65%; margin-left: 35%;}
-    #sec3 .panels .box{column-width: 250px; column-gap: 25px; margin: 0 10px;}
+    #sec2 .pj{height: 350px; margin-bottom: 30px; height: 300px;}
     #sec2 .pj_list .black .link{top: 35%; left: 30%;}
     #sec2 .pj_list .black .plus{top: 35%; left: 52%;}
     #sec2 .pj_list .black .noplus{top: 35%; left: 52%;}
+    #sec2 .pj_list .pj_text{display: inline;}
+    #sec2 .pj_list .black{background-color: rgba(0, 0, 0, 0.7); opacity: 1;
+                        position: absolute; top: 0; left: 0;
+                        max-width: 1000px; width: 100%; height: 100%}
+
+    #sec3{width: 65%; margin-left: 35%;}
+    #sec3 .panels .box{column-width: 250px; column-gap: 25px; margin: 0 10px;}
 }
 
 
+/* 모바일 */
 @media all and (max-width: 768px) {
     .fixinner{padding: 15px 15px;}
     .inner{padding: 20px 15px;}
@@ -139,7 +150,7 @@ body{background-image: url(#); background-repeat: no-repeat;
     #sec2 h2{font-size: 2.5rem; margin-bottom: 70px;}
     #sec2 h2 span{display: block; padding-top: 5px; font-size: 1.1rem;}
     #sec2 .box{margin-bottom: 100px;}
-    #sec2 .pj{height: 350px; margin-bottom: 30px; height: 190px; }
+    #sec2 .pj{height: 350px; margin-bottom: 30px; height: 190px;}
     #sec2 .pj_list .pj_text{width: 500px; padding-top: 40px; display: inline;}
     #sec2 .pj_list .black{background-color: rgba(0, 0, 0, 0.7); opacity: 1;
                         position: absolute; top: 0; left: 0;
