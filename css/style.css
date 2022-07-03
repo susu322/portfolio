@@ -108,11 +108,11 @@ body{background-image: url(#); background-repeat: no-repeat;
 /* +++++++++++++++++++++++++++++++++ 미디어쿼리 +++++++++++++++++++++++++++++++++ */
 /* 탭 */
 @media all and (max-width: 1024px) {
-    .fixinner{padding: 330px 20px;}
+    .fixinner{padding: 330px 15px;}
     .inner{padding: 55px 40px;}
     #fix{width: 30%;}
-    #fix .text{font-size: 1.2rem; line-height: 35px;}
-    #fix .text .t1{margin-top: 13px; font-size: 1rem;}
+    #fix .text{font-size: 1.1rem; line-height: 35px;}
+    #fix .text .t1{margin-top: 13px; font-size: 0.9rem;}
 
     #sec1{width: 70%; margin-left: 30%;}
     #sec1 .skill_list div img{width: 90%; padding-left: 6%;}
