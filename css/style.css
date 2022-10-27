@@ -172,6 +172,7 @@ body{background-image: url(#); background-repeat: no-repeat;
     #sec3 h2{font-size: 2.5rem; margin-bottom: 70px;}
     #sec3 .tabSet .tabs li{font-size: 15px;}
     #sec3 .tabSet .tabs{margin-bottom: 70px;}
+    #sec3 .tabSet .tabs a {margin: 5px;}
     #sec3 .panels .box{column-width: 152px; column-gap: 15px; margin: 0 4px;}
     #sec3 .panels .box .panel_1 .paneltxt{font-size: 15px}
 }
