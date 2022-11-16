@@ -79,8 +79,8 @@ body{background-image: url(#); background-repeat: no-repeat;
 #sec3 .panels .box{column-width: 320px; column-gap: 40px; margin: 0 43px;}
 #sec3 .panels .box .panel_1{display: inline-block; margin-bottom: 35px; transition: 0.4s ease-in-out;
                     box-shadow:  2px 2px 4px rgb(156, 156, 156); border-radius: 10px; overflow: hidden;}
+#sec3 .panels .box img{max-width: 100%;}
 #sec3 .panels .box .panel_1:hover{transform: scale(1.05); box-shadow:  2px 2px 6px rgb(168, 168, 168)}
-#sec3 .panels .box img{width: 100%;}
 #sec3 .panels .box .panel_1 .paneltxt{padding: 13px; text-align: center; font-size: 18px;}
 
 /* +++++++++++++++++++++++++++++++++ 섹션3- 그래픽 모달팝업창 +++++++++++++++++++++++++++++++++ */
@@ -92,7 +92,8 @@ body{background-image: url(#); background-repeat: no-repeat;
 #modal .body.longh{top:50px; transform: translate(-50%, 0);}
 #modal .body.height{top: 20px; transform: translate(-50%, 0);
                     overflow-y: auto; height: 100%;}
-#modal .body img {display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;}
+#modal .body img {display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;
+                  max-width: 100%; height: auto;}
 /* #modal .body .button {
     margin-top: 100px;
     text-align: center;
@@ -169,10 +170,11 @@ body{background-image: url(#); background-repeat: no-repeat;
     #sec2 .pj_list .black .noplus{padding: 10px 10px; left: 58%;}
 
     #sec3{width: 100%; margin-left: 0;}
+    
     #sec3 h2{font-size: 2.5rem; margin-bottom: 70px;}
     #sec3 .tabSet .tabs{margin-bottom: 70px;}
-    #sec3 .tabSet .tabs li{font-size: 13px;}
-    #sec3 .tabSet .tabs a {margin: 4px;}
+    #sec3 .tabSet .tabs li{font-size: 10px;}
+    #sec3 .tabSet .tabs a {margin:10px;}
     #sec3 .panels .box{column-width: 152px; column-gap: 15px; margin: 0 4px;}
     #sec3 .panels .box .panel_1 .paneltxt{font-size: 15px}
 }
