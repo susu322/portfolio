@@ -177,4 +177,7 @@ body{background-image: url(#); background-repeat: no-repeat;
     #sec3 .tabSet .tabs a {margin:10px;}
     #sec3 .panels .box{column-width: 152px; column-gap: 15px; margin: 0 4px;}
     #sec3 .panels .box .panel_1 .paneltxt{font-size: 15px}
+
+    #modal .body.longh{top:20%;}
+    #modal.on{transform: scale(1.5);}
 }
