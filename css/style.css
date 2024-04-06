@@ -172,11 +172,11 @@ body{background-image: url(#); background-repeat: no-repeat;
 
     #sec3{width: 100%; margin-left: 0;}
     
-    #sec3 h2{font-size: 2.5rem; margin-bottom: 70px;}
+    #sec3 h2{font-size: 2.7rem; margin-bottom: 70px;}
     #sec3 .tabSet .tabsbottom1{margin-bottom: 20px;}
     #sec3 .tabSet .tabsbottom2{margin-bottom: 70px;}
     #sec3 .tabSet .tabs li{font-size: 10px;}
-    #sec3 .tabSet .tabs a {margin:10px;}
+    #sec3 .tabSet .tabs a {margin:8px;}
     #sec3 .panels .box{column-width: 152px; column-gap: 15px; margin: 0 4px;}
     #sec3 .panels .box .panel_1 .paneltxt{font-size: 15px}
 
