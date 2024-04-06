@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+/* +++++++++++++++++++++++++++++++++ 공통 +++++++++++++++++++++++++++++++++ */
+*{margin:0; padding:0;}
+.fixinner{padding: 150px 50px;}
+.inner{padding: 65px 50px; margin: 0 auto;}
+@font-face {src : url(../font/SUIT-Regular.otf); font-family:"SUIT"}
+body{background-image: url(#); background-repeat: no-repeat;
+    font-family: "SUIT"; height: 100%;}
+
+/* +++++++++++++++++++++++++++++++++ 헤더- 인트로 +++++++++++++++++++++++++++++++++ */
+#fix{width: 25%; height: 100%; position:fixed; overflow: hidden; border-right: 1px solid #999;}
+#fix .img{margin-bottom: 35px;}
+#fix .img img{width: 100%;}
+#fix .text{text-align: center; font-size: 1.5rem; line-height: 43px;}
+#fix .text .t1{margin-top: 20px; font-size: 1.4rem;}
+
+/* +++++++++++++++++++++++++++++++++ 섹션1- 스킬 +++++++++++++++++++++++++++++++++ */
+#sec1{width: 75%; margin-left: 25%; border-bottom: 1px solid #999;}
+#sec1 h2{font-size: 2.9rem; font-weight: 400; margin-bottom: 85px;}
+#sec1 .skill_list{display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;
+                  margin: 0 19px;}
+#sec1 .skill_list div{width: 33.33%; overflow: hidden; box-sizing: border-box; text-align: center; margin-bottom: 90px;
+                    display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: space-between;}
+#sec1 .skill_list div img{padding-left: 25%; margin-bottom: 20px;}
+#sec1 .skill_list div span{font-size: 1.1rem;}
+
+/* +++++++++++++++++++++++++++++++++ 섹션2- 프로젝트 +++++++++++++++++++++++++++++++++ */
+#sec2{width: 75%; margin-left: 25%; border-bottom: 1px solid #999;}
+#sec2 h2{font-size: 2.9rem; font-weight: 400; margin-bottom: 80px;}
+#sec2 h2 span{font-size: 1.3rem;}
+
+#sec2 .box{margin-bottom: 180px;}
+#sec2 .pj{max-width: 1000px; width: 100%; height: 550px; 
+          overflow: hidden; border-radius: 30px;
+          position: relative; margin-bottom: 30px;}
+#sec2 .pj img {transition: 0.5s ease-in-out;}
+
+#sec2 .pj_list .box:nth-child(3){margin-bottom: 50px;}
+
+#sec2 .pj .pj_img{max-width: 1000px; width: 100%; height: 550px;}
+#sec2 .pj_list .pj_img img{width: 100%;}
+
+#sec2 .pj_list .pj_text{width: 970px; padding-top: 50px; display: inline;}
+#sec2 .pj_list .pj_text ul{display: flex; flex-direction: row; flex-wrap: wrap; justify-content:flex-start;}
+#sec2 .pj_list .pj_text ul li{border-bottom: 1px solid #eee; box-shadow: 1px 2px 4px rgb(168, 168, 168); color: #000; border-radius: 30px; 
+                                  margin-right: 9px; padding: 8px 15px; font-size: 1rem;}
+#sec2 .pj_list .pj_text .p1{font-size: 1.4rem; margin-bottom: 18px; font-weight: 400;}
+#sec2 .pj_list .pj_text .p2{font-size: 1rem; margin-bottom: 20px;}
+
+#sec2 .right{margin-left: 25%;}
+
+#sec2 .pj_list .black{background-color: rgba(0, 0, 0, 0.8); opacity: 0;
+                      position: absolute; top: 0; left: 0;
+                      max-width: 1000px; width: 100%; height: 100%}
+
+#sec2 .pj_list .black:hover{opacity: 1; transition: 0.4s ease-in-out;}
+#sec2 .pj_list .black .link{background-color: #fff; border-radius: 20px;
+                            padding: 25px 25px; position: absolute; top: 40%; left: 36%;}
+#sec2 .pj_list .black .link:hover{background-color: rgba(230, 230, 230, 0.85); transition: 0.5s;}
+#sec2 .pj_list .black .plus{background-color: #fff; border-radius: 20px;
+                            padding: 25px 25px; position: absolute; top: 40%; left: 51%;}
+#sec2 .pj_list .black .noplus{background-color: #555; border-radius: 20px;
+                            padding: 25px 25px; position: absolute; top: 40%; left: 51%;}
+#sec2 .pj_list .black .plus:hover{background-color: rgba(111, 111, 111, 0.85); transition: 0.5s;}
+
+/* +++++++++++++++++++++++++++++++++ 섹션3- 그래픽 +++++++++++++++++++++++++++++++++ */
+#sec3{width: 75%; margin-left: 25%;}
+#sec3 h2{font-size: 3rem; font-weight: 400; margin-bottom: 80px;}
+
+#sec3 .panels .panel{display: none;}
+#sec3 .tabSet .tabs{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;}
+#sec3 .tabSet .tabsbottom1{margin-bottom: 49px;}
+#sec3 .tabSet .tabsbottom2{margin-bottom: 135px;}
+#sec3 .tabSet .tabs a{margin: 31px;}
+#sec3 .tabSet .tabs li{font-size: 22px; color: #454545;}
+#sec3 .tabSet .tabs li:hover{color: rgba(0, 0, 0, 0.4); transition: 0.5s;}
+
+
+#sec3 .panels .box{column-width: 320px; column-gap: 40px; margin: 0 43px;}
+#sec3 .panels .box .panel_1{display: inline-block; margin-bottom: 35px; transition: 0.4s ease-in-out;
+                    box-shadow:  2px 2px 4px rgb(156, 156, 156); border-radius: 10px; overflow: hidden;}
+#sec3 .panels .box img{max-width: 100%;}
+#sec3 .panels .box .panel_1:hover{transform: scale(1.05); box-shadow:  2px 2px 6px rgb(168, 168, 168)}
+#sec3 .panels .box .panel_1 .paneltxt{padding: 13px; text-align: center; font-size: 18px;}
+
+/* +++++++++++++++++++++++++++++++++ 섹션3- 그래픽 모달팝업창 +++++++++++++++++++++++++++++++++ */
+#modal{width: 100%; height: 100%; position: fixed; left:0; top: 0; z-index: 9999;
+        background: rgba(0, 0, 0, 0.6); display: none; overflow: scroll;
+        transform: scale(0); opacity: 0; transition: 0.6s cubic-bezier(0.455, 0.03, 0.515, 0.955);}
+#modal.on{transform: scale(1); opacity: 1;}
+#modal .body {position: absolute; left: 51%; top: 50%; transform: translate(-50%, -50%);}
+#modal .body.longh{top:50px; transform: translate(-50%, 0);}
+#modal .body.height{top: 20px; transform: translate(-50%, 0);
+                    overflow-y: auto; height: 100%;}
+#modal .body img {display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;
+                  max-width: 100%; height: auto;}
+/* #modal .body .button {
+    margin-top: 100px;
+    text-align: center;
+}
+#modal .body .button button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    background: #009688;
+    color: white;
+}*/
+
+/* +++++++++++++++++++++++++++++++++ 미디어쿼리 +++++++++++++++++++++++++++++++++ */
+/* 탭 */
+@media all and (max-width: 1024px) {
+    .fixinner{padding: 250px 15px;}
+    .inner{padding: 55px 40px;}
+    #fix{width: 30%;}
+    #fix .text{font-size: 1.1rem; line-height: 35px;}
+    #fix .text .t1{margin-top: 13px; font-size: 0.9rem;}
+
+    #sec1{width: 70%; margin-left: 30%;}
+    #sec1 .skill_list div img{width: 90%; padding-left: 6%;}
+    #sec1 .skill_list{margin: 0;}
+
+    #sec2{width: 70%; margin-left: 30%;}
+    #sec2 .right{margin: 0;}
+    #sec2 .box{margin-bottom: 150px;}
+    #sec2 .pj{height: 350px; margin-bottom: 30px; height: 300px;}
+    #sec2 .pj_list .pj_text .p1{font-size: 1.2rem; margin-bottom: 10px;}
+    #sec2 .pj_list .pj_text .p2{font-size: 0.9rem; margin-bottom: 16px;}
+    #sec2 .pj_list .pj_text ul li{font-size: 0.9rem;}
+    #sec2 .pj_list .black .link{padding: 15px 15px; left: 27%;}
+    #sec2 .pj_list .black .plus{padding: 15px 15px; left: 55%;}
+    #sec2 .pj_list .black .noplus{padding: 15px 15px; left: 55%;}
+    #sec2 .pj_list .pj_text{display: inline;}
+    #sec2 .pj_list .black{background-color: rgba(0, 0, 0, 0.7); opacity: 1;
+                        position: absolute; top: 0; left: 0;
+                        max-width: 1000px; width: 100%; height: 100%}
+
+    #sec3{width: 70%; margin-left: 30%;}
+    #sec3 .panels .box{column-width: 220px; column-gap: 20px; margin: 8px;}
+}
+
+
+/* 모바일 */
+@media all and (max-width: 768px) {
+    .fixinner{padding: 15px 15px;}
+    .inner{padding: 20px 15px;}
+    #fix{width: 100%; height: 12.5%; position:relative; overflow: hidden; 
+        border-bottom: 1px solid #999; border-right: 0;}
+    #fix .text{font-size: 1.3rem; line-height: 35px;}
+    #fix .text .t1{margin-top: 12px; font-size: 1.2rem;}
+
+    #sec1{width: 100%; margin-left: 0;}
+    #sec1 h2{font-size: 2.5rem; margin-bottom: 70px;}
+    #sec1 .skill_list div img{padding-left: 5%;}
+    #sec1 .skill_list div{width: 40%; margin-bottom: 50px;}
+    
+    #sec2{width: 100%; margin-left: 0;}
+    #sec2 h2{font-size: 2.5rem; margin-bottom: 70px;}
+    #sec2 h2 span{display: block; padding-top: 5px; font-size: 1.1rem;}
+    #sec2 .box{margin-bottom: 100px;}
+    #sec2 .pj{height: 350px; margin-bottom: 30px; height: 190px;}
+    #sec2 .pj_list .pj_text{width: 500px; padding-top: 40px; display: inline;}
+    #sec2 .pj_list .black{background-color: rgba(0, 0, 0, 0.7); opacity: 1;
+                        position: absolute; top: 0; left: 0;
+                        max-width: 1000px; width: 100%; height: 100%}
+    #sec2 .pj_list .pj_text .p1{font-size: 1.1rem; margin-bottom: 10px;}
+    #sec2 .pj_list .pj_text .p2{font-size: 0.7rem; margin-bottom: 16px;}
+    #sec2 .pj_list .pj_text ul li{font-size: 0.8rem; margin-right: 7px; margin-bottom: 7px; padding: 4px 13px;}
+    #sec2 .pj_list .black .link{padding: 10px 10px; left: 25%;}
+    #sec2 .pj_list .black .plus{padding: 10px 10px; left: 56%;}
+    #sec2 .pj_list .black .noplus{padding: 10px 10px; left: 58%;}
+
+    #sec3{width: 100%; margin-left: 0;}
+    
+    #sec3 h2{font-size: 2.5rem; margin-bottom: 70px;}
+    #sec3 .tabSet .tabsbottom1{margin-bottom: 20px;}
+    #sec3 .tabSet .tabsbottom2{margin-bottom: 70px;}
+    #sec3 .tabSet .tabs li{font-size: 10px;}
+    #sec3 .tabSet .tabs a {margin:10px;}
+    #sec3 .panels .box{column-width: 152px; column-gap: 15px; margin: 0 4px;}
+    #sec3 .panels .box .panel_1 .paneltxt{font-size: 15px}
+
+    #modal .body.longh{top:20%;}
+    #modal.on{transform: scale(1.5);}
+}

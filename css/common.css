@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+
+* {margin:0; padding:0;}
+html{font-size: 19px; background-color: #fff;}
+body{font-size: 19px; height: 5500px;
+      color: #020202;
+      font-family:'helvetica','tway';
+}
+h1{font-size: 60px;}
+h2{font-size: 34px;}
+ul, ol, li{list-style-type:none}
+img, fieldset{border:none;vertical-align: middle;}
+/* vertical-align: 이미지 옆에 글씨 위치 정렬 / outline: 0; */
+hr {clear:both;border:none} /* 라인 줄 만들때 */
+a {color:inherit;text-decoration:none}
+table{border-collapse:collapse}
+input, textarea {color:inherit;font-size:inherit;
+       font-family:inherit;
+       vertical-align: middle; outline: 0;}
+/* vertical-align: 텍스트가 적절히 가운데로 정렬 / outline: 0; */
+button{outline:0}
